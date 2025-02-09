@@ -9,7 +9,7 @@ class Config:
     API_HASH = environ.get("API_HASH", "5436f836f2887d3e680628ff1010e949")
     BOT_TOKEN = environ.get("BOT_TOKEN", "") 
     BOT_SESSION = environ.get("BOT_SESSION", "DOXDKGBOT") 
-    DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://DOXDKGBOT:L0t0H4e1f2ugxVai@cluster0.r6nqs.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://tagig38166:8rb9P298EhHSXRYN@cluster0.idvld.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     DATABASE_NAME = environ.get("DATABASE_NAME", "DOXDKGBOT")
     BOT_OWNER = int(environ.get("BOT_OWNER", "1440378158"))
 
