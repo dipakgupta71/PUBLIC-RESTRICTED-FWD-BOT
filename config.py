@@ -8,7 +8,7 @@ class Config:
     API_ID = int(environ.get("API_ID", "5128432"))
     API_HASH = environ.get("API_HASH", "5436f836f2887d3e680628ff1010e949")
     BOT_TOKEN = environ.get("BOT_TOKEN", "") 
-    BOT_SESSION = environ.get("BOT_SESSION", "FWDDKG07BOT") 
+    BOT_SESSION = environ.get("BOT_SESSION", "DOXDKGBOT") 
     DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://dipakkumargupta212:175d0AY8Klsqpmp9@dox07.qwfjymn.mongodb.net/?retryWrites=true&w=majority&appName=DOX07")
     DATABASE_NAME = environ.get("DATABASE_NAME", "DOXDKGBOT")
     BOT_OWNER = int(environ.get("BOT_OWNER", "1440378158"))
