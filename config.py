@@ -9,7 +9,7 @@ class Config:
     API_HASH = environ.get("API_HASH", "5436f836f2887d3e680628ff1010e949")
     BOT_TOKEN = environ.get("BOT_TOKEN", "8233125209:AAFPZaFq0Wq4W8F7VjAGjkOfeD1sj8zv77k") 
     BOT_SESSION = environ.get("BOT_SESSION", "Doxdkgbotrobot") 
-    DATABASE_URI = environ.get("DATABASE_URI", "")
+    DATABASE_URI = environ.get("DATABASE_URI", "mongodb+srv://Doxdkgbotrobot:qCB967Y5xZoMd15Q@cluster0.y8f2gps.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     DATABASE_NAME = environ.get("DATABASE_NAME", "Doxdkgbotrobot")
     BOT_OWNER = int(environ.get("BOT_OWNER", "7597217793"))
 
@@ -27,4 +27,5 @@ class temp(object):
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
+
 
